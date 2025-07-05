@@ -109,34 +109,6 @@
       box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
     }
 
-    .tooltip {
-      position: relative;
-      display: inline-block;
-    }
-
-    .tooltip .tooltiptext {
-      visibility: hidden;
-      width: 180px;
-      background-color: #333;
-      color: #fff;
-      text-align: center;
-      padding: 8px;
-      border-radius: 6px;
-      position: absolute;
-      z-index: 1;
-      bottom: 125%;
-      left: 50%;
-      margin-left: -90px;
-      opacity: 0;
-      transition: opacity 0.3s ease-in-out;
-      font-size: 0.9em;
-    }
-
-    .tooltip:hover .tooltiptext {
-      visibility: visible;
-      opacity: 1;
-    }
-
     footer {
       margin-top: 60px;
       padding: 20px;
@@ -146,56 +118,23 @@
     }
 
     @keyframes stars {
-      0% {
-        background-position: 0 0;
-      }
-      100% {
-        background-position: 1000px 1000px;
-      }
+      0% {background-position: 0 0;}
+      100% {background-position: 1000px 1000px;}
     }
 
     @media (max-width: 768px) {
-      h1 {
-        font-size: 2.5em;
-      }
-
-      h2 {
-        font-size: 1.5em;
-      }
-
-      img {
-        max-width: 95%;
-      }
-
-      .galeria img {
-        width: 45%;
-        height: auto;
-      }
+      h1 { font-size: 2.5em; }
+      h2 { font-size: 1.5em; }
+      img { max-width: 95%; }
+      .galeria img { width: 45%; height: auto; }
     }
 
     @media (max-width: 480px) {
-      h1 {
-        font-size: 2em;
-      }
-
-      h2 {
-        font-size: 1.2em;
-      }
-
-      p,
-      blockquote,
-      footer {
-        font-size: 1em;
-        padding: 0 10px;
-      }
-
-      .galeria {
-        gap: 15px;
-      }
-
-      .galeria img {
-        width: 90%;
-      }
+      h1 { font-size: 2em; }
+      h2 { font-size: 1.2em; }
+      p, blockquote, footer { font-size: 1em; padding: 0 10px; }
+      .galeria { gap: 15px; }
+      .galeria img { width: 90%; }
     }
   </style>
 </head>
@@ -211,35 +150,11 @@
         <strong>"La noche estrellada"</strong>, pintada en 1889, no solo es un cuadro: es una puerta al alma de Van Gogh. Emoción, caos y belleza fluyen en cada pincelada.
       </p>
 
-      <div class="tooltip">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/The_Starry_Night.jpg" alt="La Noche Estrellada">
-        <span class="tooltiptext">¡Haz clic derecho para verla más grande!</span>
-      </div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/The_Starry_Night.jpg" alt="La Noche Estrellada" />
 
       <blockquote>
         "Prefiero morir de pasión que de aburrimiento." — Vincent van Gogh
       </blockquote>
 
       <p>
-        Si quieres saber más sobre esta obra, visita:
-        <br />
-        <a href="https://es.wikipedia.org/wiki/La_noche_estrellada" target="_blank" rel="noopener noreferrer">🔗 Wikipedia: La noche estrellada</a>
-      </p>
-    </section>
-
-    <section>
-      <h2>🎨 Galería de Arte Van Gogh Style</h2>
-      <div class="galeria">
-        <img src="https://uploads8.wikiart.org/images/vincent-van-gogh/starry-night-over-the-rhone.jpg!Large.jpg" alt="Estrella sobre el Ródano" />
-        <img src="https://uploads1.wikiart.org/images/vincent-van-gogh/the-cafe-terrace-on-the-place-du-forum-arles-at-night.jpg!Large.jpg" alt="Café de Noche" />
-        <img src="https://uploads2.wikiart.org/images/vincent-van-gogh/the-yellow-house-1888.jpg!Large.jpg" alt="La Casa Amarilla" />
-        <img src="https://uploads0.wikiart.org/images/vincent-van-gogh/wheatfield-with-crows.jpg!Large.jpg" alt="Campo de Trigo con Cuervos" />
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    Hecho con 💫 pasión artística por Luna — Proyecto de HTML 💻
-  </footer>
-</body>
-</html>
+        Si quieres saber más
